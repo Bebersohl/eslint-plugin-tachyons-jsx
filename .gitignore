@@ -18,7 +18,7 @@ node_modules
 !tests/**/node_modules
 npm-debug.log
 sftp-config.json
-
+.DS_Store
 # Only apps should have lockfiles
 yarn.lock
 package-lock.json
