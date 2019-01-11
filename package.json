@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-tachyons-jsx",
+  "version": "0.0.0",
+  "description": "Eslint plugin that enforces the order of tachyons classes in jsx",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "tachyons"
+  ],
+  "author": "Brandon Ebersohl",
+  "main": "lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
