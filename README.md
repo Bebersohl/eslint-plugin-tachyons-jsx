@@ -117,7 +117,7 @@ Classes are split into 4 categories in order of precedence:
 
 The classes within each category are sorted alphanumerically.
 
-If you want a detailed look at which class belongs to which category click here.
+If you want a detailed look at which class belongs to which category click [here](https://github.com/Bebersohl/eslint-plugin-tachyons-jsx/tree/master/lib/categories).
 
 ## Custom Ordering
 
