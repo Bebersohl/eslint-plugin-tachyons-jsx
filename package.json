@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-tachyons-jsx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Eslint plugin that enforces the order of tachyons classes in jsx",
   "keywords": [
     "eslint",
