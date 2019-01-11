@@ -1,5 +1,7 @@
 # eslint-plugin-tachyons-jsx
 
+![](demo.gif)
+
 An eslint plugin that enforces the order of tachyons classes in jsx
 
 ## Installation
