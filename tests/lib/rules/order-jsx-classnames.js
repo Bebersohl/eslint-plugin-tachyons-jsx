@@ -26,7 +26,14 @@ const parserOptions = {
 var ruleTester = new RuleTester({ parserOptions });
 
 ruleTester.run('order-jsx-classnames', rule, {
-  valid: ['<i />', "<i className='w-100'/>"],
+  valid: [
+    '<i />',
+    '<i className="w-100"/>',
+    '<i className={className}/>',
+    '<i className=""/>',
+    '<i className={"w-100" + classes}/>',
+    '<i className={cn("foo", "bar")}/>'
+  ],
 
   invalid: [
     {
