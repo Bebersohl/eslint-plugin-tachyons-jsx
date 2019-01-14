@@ -35,7 +35,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "tachyons-jsx/rule-name": 2
+    "tachyons-jsx/order-jsx-classnames": 2
   }
 }
 ```
@@ -126,7 +126,7 @@ If you have custom tachyons-like classes you may configure which category they b
 ```json
 {
   "rules": {
-    "tachyons-jsx/rule-name": [
+    "tachyons-jsx/order-jsx-classnames": [
       2,
       {
         "center-xl": 0,
